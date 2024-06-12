@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 145, 145);
+   
+}
+.father{
+    height: 130px;
+    width: 340px;
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.mother{
+    height: 160px;
+    width: 340px;
+    background-color: white;
+}
+.child{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin-left: 100px;
+    position: relative;
+    top: -60px;
+}
+img{
+    max-width: auto;
+    max-height: auto;
+    border-radius: 100%;
+    border: solid;
+    border-color: white;
+}
+.uncle{
+    height: 80px;
+    width: 340px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.name{
+    position: relative;
+    top: -50px;
+    right: -110px;
+    font-size: 18px;
+}
+.age{
+    position: relative;
+    top: -70px;
+    right: -210px;
+    font-size: 17px;
+}
+.country{
+    position: relative;
+    top: -60px;
+    right: -130px;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.no-of-photos{
+   margin-left: 260px;
+   margin-top: 20px;
+}
+.no-of-likes{
+    position: absolute;
+    margin-left: 158px;
+    margin-top: 20px;
+}
+.no-of-followers{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.followers{
+    position: absolute;
+    margin-left: 20px;
+}
+.likes{
+    position: absolute;
+    margin-left: 156px;
+}
+.photos{
+    position: absolute;
+    margin-left: 250px; 
+}
+.all{
+    letter-spacing: 2px;
+    font-family:cursive;
+}
